@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+upv.csv
+*.jpg
+*.png
+ref_files/
+app/rsconnect/
+docs/

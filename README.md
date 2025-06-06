@@ -1,0 +1,44 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Solar Forest Carbon Calculator
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This repository contains code for the solar-forest carbon calculator,
+which calculates the carbon balance between solar panels and an acre of
+forestland through 2050 in response to multiple user inputs. The code is
+a Shiny application written in R. Images are not included in this
+repository.
+
+Access the tool here: bit.ly/hf-carbon-calc
+
+Hover over parameters in the tool for more information, and open the
+code in the `app/` folder to view the calculations in more detail.
+
+## Content
+
+    .
+    |
+    ├─ solar-forest-carbon-calc.Rproj                        # RStudio project file
+    |
+    ├─ README.md                                             # Presentation of the project
+    ├─ LICENSE.md                                            # Project license
+    |
+    ├─ app/                                                  # Folder containing app code and reference files
+    |  └─ www/                                               # Folder containing files needed for app code              
+    |     └─ upv_edit.csv                                    # Usable PV energy (i.e., curtailment) by year under different scenarios.
+    |                                                        # adapted from Nathan Oalican's senior thesis
+    |  └─ app.R                                              # App code
+
+## Usage
+
+This code is written for use in a Shiny application. `app.R` can be
+opened in RStudio (or another IDE that understands R, if just wanting to
+look at the code more deeply). Any IDE is sufficient for checking
+equations and other general investigation of the code. Someone seeking
+to publish their own version of this app should use RStudio. They will
+also need to create their own project on the Shiny website and should
+probably edit `app.R` to remove references to any images, which are not
+included in this repository.
